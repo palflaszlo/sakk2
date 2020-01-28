@@ -26,18 +26,18 @@ public class Mezo extends JButton {
 
         String fajlNev = "img/ures.png";
         switch (this.ertek){
-            case 11: fajlNev = "img/feherGyalog.png"; break;
-            case 12: fajlNev = "img/feherBastya.png"; break;
-            case 13: fajlNev = "img/feherHuszar.png"; break;
-            case 14: fajlNev = "img/feherFuto.png"; break;
-            case 15: fajlNev = "img/feherVezer.png"; break;
-            case 16: fajlNev = "img/feherKiraly.png"; break;
-            case 21: fajlNev = "img/feleteGyalog.png"; break;
-            case 22: fajlNev = "img/feketeBastya.png"; break;
-            case 23: fajlNev = "img/feketeHuszar.png"; break;
-            case 24: fajlNev = "img/feketeFuto.png"; break;
-            case 25: fajlNev = "img/feketeVezer.png"; break;
-            case 26: fajlNev = "img/feketeKiraly.png"; break;
+            case 11: fajlNev = "11-gyalog-feher.png"; break;
+            case 12: fajlNev = "12-bastya-feher.png"; break;
+            case 13: fajlNev = "13-huszar-feher.png"; break;
+            case 14: fajlNev = "14-futo-feher.png"; break;
+            case 15: fajlNev = "15-kiraly-feher.png"; break;
+            case 16: fajlNev = "16-vezer-feher.png"; break;
+            case 21: fajlNev = "21-gyalog-fekete.png"; break;
+            case 22: fajlNev = "22-bastya-fekete.png"; break;
+            case 23: fajlNev = "23-huszar-fekete.png"; break;
+            case 24: fajlNev = "24-futo-fekete.png"; break;
+            case 25: fajlNev = "25-kiraly-fekete.png"; break;
+            case 26: fajlNev = "26-vezer-fekete.png"; break;
         }
 
         Image img = new ImageIcon(fajlNev).getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH);
